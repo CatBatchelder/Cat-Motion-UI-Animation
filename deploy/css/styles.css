@@ -433,9 +433,14 @@ textarea {
 }
 #svg-demo > div {
   grid-area: svg;
-  border: 3px solid aqua;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+#svg-demo > div svg g g #circle {
+  display: none;
+}
+#svg-demo > div svg g g #check {
+  display: none;
 }

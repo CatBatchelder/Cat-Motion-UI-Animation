@@ -8,7 +8,7 @@
     grid-template-areas: ". svg .";
     >div{
         grid-area: svg;
-        border: 3px solid aqua;
+       // border: 3px solid aqua;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,6 +17,24 @@
         svg{
             // border:3px solid #000;
             // width: 100%;
+
+            g{
+                g{
+                   #circle{
+                display: none;
+            }
+            #check{
+                display: none;
+            } 
+                }
+            }
+
+            // #circle{
+            //     display: hidden;
+            // }
+            // #check{
+            //     display: hidden;
+            // }
         }
     }
 }
