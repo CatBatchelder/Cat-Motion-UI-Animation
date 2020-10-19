@@ -21,10 +21,12 @@
             g{
                 g{
                    #circle{
-                display: none;
+                // display: none;
+                visibility:hidden;
             }
             #check{
-                display: none;
+                // display: none;
+                visibility:hidden;
             } 
                 }
             }

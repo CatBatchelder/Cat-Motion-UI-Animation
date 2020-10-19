@@ -1,5 +1,10 @@
-import gsap from "gsap/gsap-core"
-import {iceCreamAnimation} from "./demo.js"
+console.log( "is scripts working");
+
+import {gsap} from "gsap";
+import {dotsAnimation} from "./demo.js";
+import {checkAnimation} from "./demo.js";
 
 const mainTL = gsap.timeline();
-mainTL.add(iceCreamAnimation());
+mainTL.add(dotsAnimation())
+    .add(checkAnimation());
+ 

@@ -439,8 +439,8 @@ textarea {
   height: 100vh;
 }
 #svg-demo > div svg g g #circle {
-  display: none;
+  visibility: hidden;
 }
 #svg-demo > div svg g g #check {
-  display: none;
+  visibility: hidden;
 }
