@@ -2,41 +2,50 @@
     Demo
 ============= */
 
-#svg-demo{
+#svg-demo {
     display: grid;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: auto 75% auto;
     grid-template-areas: ". svg .";
-    >div{
+    padding-top: 50px;
+    background-color: black;
+
+    >div {
         grid-area: svg;
-       // border: 3px solid aqua;
+        // border: 3px solid aqua;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        //height: 100%;
 
-        svg{
+        svg {
             // border:3px solid #000;
             // width: 100%;
 
-            g{
-                g{
-                   #circle{
-                // display: none;
-                visibility:hidden;
-            }
-            #check{
-                // display: none;
-                visibility:hidden;
-            } 
+            g {
+                g {
+                    // #circle {
+                    //     // display: none;
+                    //     visibility: hidden;
+                    // }
+
+                    // #check {
+                    //     // display: none;
+                    //     visibility: hidden;
+                    // }
+
+                    #play{
+                        visibility: hidden;
+                    }
+
+                    #complete{
+                        visibility: hidden;
+                    }
+
+                    #oval-three{
+                        z-index: 100;
+                    }
                 }
             }
-
-            // #circle{
-            //     display: hidden;
-            // }
-            // #check{
-            //     display: hidden;
-            // }
         }
     }
 }

@@ -428,19 +428,23 @@ textarea {
 ============= */
 #svg-demo {
   display: grid;
-  grid-template-columns: auto 50% auto;
+  grid-template-columns: auto 75% auto;
   grid-template-areas: ". svg .";
+  padding-top: 50px;
+  background-color: black;
 }
 #svg-demo > div {
   grid-area: svg;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
-#svg-demo > div svg g g #circle {
+#svg-demo > div svg g g #play {
   visibility: hidden;
 }
-#svg-demo > div svg g g #check {
+#svg-demo > div svg g g #complete {
   visibility: hidden;
+}
+#svg-demo > div svg g g #oval-three {
+  z-index: 100;
 }
